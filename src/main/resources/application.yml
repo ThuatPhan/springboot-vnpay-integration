@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot-vnpay-integration
+
+vnpay:
+  tmn-code: R4WP1HGL
+  secret-key: DZCX4VBY38WETVVIBB2MOJ98WNTHF03F
+  pay-url: https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
+  return-url: http://localhost:8080/api/payment/payment-callback
+  command: pay
+  order-type: other
+  version: 2.1.0
